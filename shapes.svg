@@ -1,0 +1,12 @@
+<?xml-stylesheet href="main.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" class="shapes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1200px"
+	 height="1200px" viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<g class="hex_1">
+	<polygon fill="#F2DEE1" points="893.824,1081.298 333.258,1083.808 50.802,599.598 328.912,112.878 889.479,110.368 
+		1171.935,594.578 	"/>
+</g>
+<g class="hex_2">
+	<polygon fill="#ACCBE2" points="225,362.406 616.5,136.517 1008,362.406 1008,814.184 616.5,1040.073 225,814.184 	"/>
+</g>
+</svg>

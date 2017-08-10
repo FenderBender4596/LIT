@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+html{
+	background: linear-gradient(rgb(242, 222, 225), rgb(39, 27, 76)), url(img/background_texture.png);
+	height: 100vh;
+	font-size: 100%;
+}
+
+body { 
+	text-align: center;
+	height: auto;
+	overflow: hidden;
+}
+
+.wrapper {
+	height: 100vh;
+}
+
+.shapes {
+	width: 100%;
+	z-index: -1;
+	position: relative;
+	margin-top: 5%;
+	padding: 0;
+}
+
+.band_logo {
+	width: 60%;
+	position: relative;
+	z-index: 2;
+	margin-top: 5%;
+}
+
+.p_1 {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.p_2 {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.o {
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.l {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.y {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.h {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.i_1 {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.i_2 {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.a {
+    animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+.hex_1 {
+	animation-name: rotateClockwise;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+    transform-origin: 50% 50%;
+}
+
+.hex_2{
+	animation-name: counterClockwise;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+    transform-origin: 50% 50%;
+}
+
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+
+@keyframes rotateClockwise
+{
+	from { transform: rotate(0deg) }
+	to   { transform: rotate(360deg) }
+}
+
+@keyframes counterClockwise{
+	from { transform: rotate(360deg) }
+	to   { transform: rotate(0deg) }
+}
+
+
